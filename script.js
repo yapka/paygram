@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card-body">
                     <h5 class="card-title">${book.title}</h5>
                     <p class="card-text">${book.price.toFixed(2)} Frcfa</p>
-                    <button class="btn btn-primary" onclick="addToCart(${book.id})">ACHETER</button>
+                    <a class="btn btn-primary" href="pay.html" onclick="addToCart(${book.id})">ACHETER</a>
                 </div>
             </div>
         `;
